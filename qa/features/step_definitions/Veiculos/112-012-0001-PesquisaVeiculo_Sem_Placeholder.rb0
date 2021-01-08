@@ -1,0 +1,21 @@
+Dado("que estou na tela de pesquisa por veículo.") do
+  user_page.load
+    #user_page.efetuar_login_sucesso
+    sleep(1)
+    user_page.acessar_veiculos
+    user_page.bt_limpar
+  end
+  
+
+Dado("verifico que consta um pequeno ícone do sinal de interrogação \(?) próximo a cada campo que possuía placeholder") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando("passo o cursor do mouse sobre cada ícone do sinal de interrogação") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Então("o sistema apresenta um tooltip com um texto instrutivo a respeito de cada campo") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+

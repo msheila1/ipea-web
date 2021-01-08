@@ -1,0 +1,11 @@
+#language: pt
+
+Funcionalidade: Exibir a borda do campo verde após o preenchimento.
+
+Cenário: Validar a Exibição da borda do campo verde após o preenchimento
+
+Dado que preencha qualquer campo na tela de veiculos.
+
+Quando incluo qualquer informação no campo
+
+Então sistema exibe o campo com a borda na cor verde.

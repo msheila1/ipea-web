@@ -1,0 +1,21 @@
+## YAML Templates
+---
+#execução do scripts visivel (sem headless)
+default: -p pretty -p html -p chrome -p homolog
+#default: -p pretty -p html -p firefox -p homolog
+#execução do scripts invisivel (com headless)
+#default: -p pretty -p html -p chrome_headless -p homolog
+#default: -p pretty -p html -p firefox_headless -p homolog
+for_ci:  --format progress
+pretty: --format pretty
+html:  --format html --out=report/relatório.html
+html:  --format html --out=report/report.html
+homolog:  AMBIENTE=homolog
+chrome:  BROWSER=chrome
+chrome_headless:  BROWSER=chrome_headless
+firefox:  BROWSER=firefox
+firefox_headless:  BROWSER=firefox_headless
+
+
+
+   

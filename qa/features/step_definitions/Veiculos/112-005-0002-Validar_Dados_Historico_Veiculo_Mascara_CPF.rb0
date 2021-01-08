@@ -1,0 +1,43 @@
+Dado("que eu acesse o  dossiê do veículo com sucesso.") do
+    visit 'http://10.72.251.134:8081/auth/realms/ipea/protocol/openid-connect/auth?client_id=ssp-ipea-web&redirect_uri=http%3A%2F%2F10.72.251.134%2F%23%2Finicio&state=677a89b4-640e-441d-98ed-d663529c9c80&response_mode=fragment&response_type=code&scope=openid&nonce=a7230c1b-3157-4013-8b8c-2c3b4ed82f30'
+  user_page.load
+  user_page.efetuar_login_sucesso
+  sleep(1)
+  user_page.acessar_veiculos
+  user_page.bt_limpar
+  sleep(2)
+  user_page.preencher_placa_fod02
+  user_page.clicar_pesquisar
+  sleep(2)
+  user_page.clicar_link_detalhes_fod02   
+  sleep(2)
+  
+  end
+  
+  Dado("acesse o “Histórico do Veículo”.") do
+  user_page.clicar_historico
+  sleep(2)
+  
+  #Confere o número de registros de Histórico apresentados após a consulta
+  find('span', text: 'Total de 16 registros', exact: true)
+
+  Quando("eu selecionar um registro de proprietário Pessoa Física.") do
+  #abrir os detalhes do registro de histórico
+  user_page.abrir_det_reg
+  sleep(1)
+  
+  end
+
+  Então("o sistema exibe o CPF com a mascara XXX.XXX.XXX-XX.") do
+  #item "CPF:"
+  find('span', text: 'CPF:', exact: true)
+
+  #Item CPF conteúdo
+  find('span', text: '010.773.698-59', exact: true)
+  
+  end
+
+end
+
+
+

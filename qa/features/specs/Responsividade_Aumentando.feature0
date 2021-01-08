@@ -1,0 +1,12 @@
+#language: pt
+
+Funcionalidade: Responsividade - Aumentando.
+
+Cenário: Validar a Responsividade da aplicação aumentando o ZOOM.
+
+Dado eu faça o login na aplicação com sucesso
+Quando acesso a pagina de Veiculos.
+Então clico no icone do ZOOM
+E clico no botão (+) até 150%
+Então os campos são reajustados na pagina de exibição.
+

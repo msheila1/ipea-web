@@ -1,0 +1,15 @@
+## YAML Templatesss
+---
+default: -p pretty -p html -p chrome -p homolog
+#default: -p pretty -p html -p firefox -p homolog
+for_ci:  --format progress
+pretty: --format pretty
+html:  --format html --out=report/relatório.html
+html:  --format html --out=report/report.html
+homolog:  AMBIENTE=homolog
+chrome:  BROWSER=chrome
+firefox:  BROWSER=firefox
+
+
+
+   

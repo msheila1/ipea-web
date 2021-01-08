@@ -1,0 +1,9 @@
+#language:pt
+
+Funcionalidade: Ajustar Texto de Instrução (Placeholder) dos Campos.
+Cenário: Valdar o ajuste de Texto de Instrução (Placeholder) dos Campos.
+
+Dado que estou na tela de pesquisa por veículo.
+E verifico que consta um pequeno ícone do sinal de interrogação (?) próximo a cada campo que possuía placeholder
+Quando passo o cursor do mouse sobre cada ícone do sinal de interrogação
+Então o sistema apresenta um tooltip com um texto instrutivo a respeito de cada campo

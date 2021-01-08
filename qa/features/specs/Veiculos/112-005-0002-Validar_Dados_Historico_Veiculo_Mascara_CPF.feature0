@@ -1,0 +1,10 @@
+#language: pt
+
+Funcionalidade: Ajustar Mascara de Dados de CPF e CNPJ na Seção Histórico do Veiculo.
+
+Cenário: Validar o Ajuste da Mascara de Dados de CPF e CNPJ na Seção Histórico do Veiculo.
+
+Dado que eu acesse o  dossiê do veículo com sucesso.
+E acesse o “Histórico do Veículo”.
+Quando eu selecionar um registro de proprietário Pessoa Física.
+Então o sistema exibe o CPF com a mascara XXX.XXX.XXX-XX.

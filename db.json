@@ -1,0 +1,2523 @@
+{
+  "examples": [
+    {
+      "id": 1,
+      "fieldString": "String 1",
+      "fieldNumber": 1,
+      "fieldBoolean": true,
+      "fieldStatus": "Cancelled",
+      "fieldCpf": "12345678950",
+      "fieldCnpj": "00000000000191",
+      "fieldCpfCnpj": "11122233344",
+      "fieldDate": "2018-08-28T23:28:56.782Z",
+      "fieldTime": "2018-08-28T13:20:45.782Z",
+      "fieldDateTime": "2018-08-28T09:15:33.782Z",
+      "fieldAutocomplete": "Autocomplete 1",
+      "fieldSelectSingle": 1,
+      "fieldSelectMultiple": [
+        1,
+        3
+      ],
+      "fieldAddress": {
+        "streetLine1": "Avenida Paulista",
+        "streetLine2": "12.567",
+        "complement": "Sala 122",
+        "neighborhood": "Alto da Mooca",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "Brasil",
+        "zipcode": "12999567"
+      }
+    }
+  ],
+  "sub-examples": [
+    {
+      "id": 1,
+      "label": "Label 1",
+      "value": "Value 1"
+    },
+    {
+      "id": 2,
+      "label": "Label 2",
+      "value": "Value 2"
+    },
+    {
+      "id": 3,
+      "label": "Label 3",
+      "value": "Value 3"
+    }
+  ],
+  "delegacias": [
+    {
+      "id": 1,
+      "codigo": 111,
+      "nome": "Delegacia 1"
+    },
+    {
+      "id": 2,
+      "codigo": 222,
+      "nome": "Delegacia 2"
+    },
+    {
+      "id": 3,
+      "codigo": 333,
+      "nome": "Delegacia 3"
+    }
+  ],
+  "ocorrencias": [
+    {
+      "id": 1,
+      "ano_bo": 2018,
+      "numero_bo": 1000,
+      "nome_delegacia": "Delegacia 1",
+      "circunscricao": "Delegacia Circunscrição 1",
+      "flagrante": true,
+      "autoria": "Desconhecida",
+      "data_ocorrencia": "2018-03-16T23:28:56.782Z",
+      "data_comunicacao": "2018-03-17T23:28:56.782Z",
+      "tipo_local": "Via Pública",
+      "sub_tipo_local": "Via Pública",
+      "naturezas": [
+        {
+          "id": 1,
+          "rubrica": "Natureza 1"
+        },
+        {
+          "id": 2,
+          "rubrica": "Natureza 2"
+        },
+        {
+          "id": 3,
+          "rubrica": "Natureza 3"
+        },
+        {
+          "id": 4,
+          "rubrica": "Natureza 4"
+        },
+        {
+          "id": 5,
+          "rubrica": "Natureza 5"
+        }
+      ],
+      "data_hora_registro": "2018-08-28T23:28:56.782Z",
+      "envolvimento_veiculo": "Acidentado",
+      "logradouro": "Avenida Dr. Roberto de Almeida Vinhas",
+      "numero_logradouro": "S/N",
+      "complemento_logradouro": "Viaduto 10",
+      "bairro": "Tupi",
+      "municipio": "Praia Grande",
+      "uf": "SP",
+      "cep": "11703260",
+      "historico": "Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. ",
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "ano_bo": "********",
+      "numero_bo": "********",
+      "nome_delegacia": "********",
+      "naturezas": [
+        {
+          "id": 3,
+          "rubrica": "********"
+        },
+        {
+          "id": 4,
+          "rubrica": "********"
+        }
+      ],
+      "data_hora_registro": "********",
+      "envolvimento_veiculo": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "ano_bo": 2017,
+      "numero_bo": 3000,
+      "nome_delegacia": "Delegacia 3",
+      "naturezas": [
+        {
+          "id": 5,
+          "rubrica": "Natureza 5"
+        },
+        {
+          "id": 6,
+          "rubrica": "Natureza 6"
+        }
+      ],
+      "data_hora_registro": "2018-08-28T23:28:56.782Z",
+      "envolvimento_veiculo": "Outra ocorrência",
+      "confidencial": false
+    },
+    {
+      "id": 4,
+      "ano_bo": 2015,
+      "numero_bo": 4000,
+      "nome_delegacia": "Delegacia 4",
+      "naturezas": [
+        {
+          "id": 7,
+          "rubrica": "Natureza 7"
+        },
+        {
+          "id": 8,
+          "rubrica": "Natureza 8"
+        }
+      ],
+      "data_hora_registro": "2018-08-28T23:28:56.782Z",
+      "envolvimento_veiculo": "Outra ocorrência",
+      "confidencial": false
+    }
+  ],
+  "veiculos": [
+    {
+      "id": 1,
+      "placa": "FOD1234",
+      "chassi": "ESTOU TESTANDO LETRA MAIUSCULA PARA SABER O NORMALIZE ESTÁ FUNCIONANDO. MAS QUEM SABE SE ESSA PARADA ESTÁ OU NÃO FUNFANDO EU NÃO SEI. VAMOS VER SE AGORA ESSA PORCARIA ESTÁ FUNFANCO. POIS NÃO AGUENTOUO MAIS FAZER ISSO. MERDA...",
+      "marca": "ESTOU TESTANDO LETRA MAIUSCULA PARA.",
+      "cor": "Azul",
+      "tipo": "Automóvel",
+      "anoFabricacao": "2015",
+      "anoModelo": "2000",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "confidencial": false,
+      "proprietarioAtual": {
+        "id": 1,
+        "idPessoa": 1,
+        "nome": "Nicolas Gimenez Freitas",
+        "rg": "456789y89778",
+        "rgUf": "SP",
+        "rgOrgao": "SSP",
+        "tipoDocumento": "CPF",
+        "numeroDocumento": "00000000191",
+        "telefone": "1123234343",
+        "endereco": {
+          "logradouro": "Rua Paulista da Cunha Nogueira",
+          "numero": 345,
+          "complemento": "Sala 01",
+          "bairro": "Vila Bertioga",
+          "cep": "03187-020",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      },
+      "proprietarioAnterior": {
+        "id": 1,
+        "idPessoa": 2,
+        "nome": "Isabelle Gimenez Freitas",
+        "rg": "456789y89778",
+        "rgUf": "SP",
+        "rgOrgao": "SSP",
+        "tipoDocumento": "CPF",
+        "numeroDocumento": "00000000191",
+        "telefone": "1123234343",
+        "endereco": {
+          "logradouro": "Rua Paulista da Cunha Nogueira",
+          "numero": 345,
+          "complemento": "Sala 01",
+          "bairro": "Vila Bertioga",
+          "cep": "03187-020",
+          "municipio": "São Paulo",
+          "uf": "SP"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "placa": "FOD1234",
+      "chassi": "********",
+      "marca": "********",
+      "cor": "********",
+      "tipo": "********",
+      "anoFabricacao": "********",
+      "anoModelo": "********",
+      "municipio": "********",
+      "uf": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "placa": "FOD1234",
+      "chassi": "ABC1234567890ABCDEFG",
+      "marca": "VW/Gol Especial",
+      "cor": "Azul",
+      "tipo": "Automóvel",
+      "anoFabricacao": "2015",
+      "anoModelo": "2000",
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "confidencial": false
+    }
+  ],
+  "proprietarios-veiculos": [
+    {
+      "id": 1,
+      "nome": "Isabelle Gimenez Freitas",
+      "rg": "456789y89778",
+      "rgUf": "SP",
+      "rgOrgao": "SSP",
+      "tipoDocumento": "CPF",
+      "numeroDocumento": "00000000191",
+      "telefone": "1123234343",
+      "endereco": {
+        "logradouro": "Rua Paulista da Cunha Nogueira",
+        "numero": 345,
+        "complemento": "Sala 01",
+        "bairro": "Vila Bertioga",
+        "cep": "03187-020",
+        "municipio": "São Paulo",
+        "uf": "SP"
+      }
+    }
+  ],
+  "cores-veiculos": [
+    {
+      "id": 1,
+      "codigo": "1",
+      "descricao": "Azul"
+    },
+    {
+      "id": 2,
+      "codigo": "2",
+      "descricao": "Vermelho"
+    }
+  ],
+  "tipos-veiculos": [
+    {
+      "id": 1,
+      "codigo": "1",
+      "nome": "Automóvel",
+      "descricao": "Automóvel"
+    },
+    {
+      "id": 2,
+      "codigo": "2",
+      "nome": "Caminhão",
+      "descricao": "Caminhão"
+    }
+  ],
+  "municipios": [
+    {
+      "id": 1,
+      "id_detran": "1",
+      "nome": "São Paulo",
+      "siglaUf": "SP",
+      "nomeAndUf": "São Paulo/SP"
+    }
+  ],
+  "historicos-veiculos": [
+    {
+      "id": 1,
+      "dataInclusaoProprietarios": "2018-09-01T21:59:45",
+      "nomeProprietario": "João da Cunha Lopes Melo",
+      "municipioVeiculo": "São Paulo",
+      "descricaoTransacao": "Alteração do número do chassi.",
+      "rgProprietario": "5566677778",
+      "tipoDocumentoCpfCnpj": "CPF",
+      "documentoCpfCnpj": "00000000191",
+      "logradouroProprietario": "Rua dos Trilhos",
+      "numeroProprietario": "1987",
+      "complementoProprietario": "Ap. 85",
+      "bairroProprietario": "Alto da Mooca",
+      "municipioProprietario": "São Paulo",
+      "cepProprietario": "09876765"
+    },
+    {
+      "id": 2,
+      "dataInclusaoProprietarios": "2018-09-01T23:59:45",
+      "nomeProprietario": "Elizabeth Gimenez da Cunha Souza",
+      "municipioVeiculo": "Rio de Janeiro",
+      "descricaoTransacao": "Alteração do endereço através de solicitação presencial.",
+      "rgProprietario": "5566677778",
+      "tipoDocumentoCpfCnpj": "CNPJ",
+      "documentoCpfCnpj": "00000000000191",
+      "logradouroProprietario": "Rua dos Trilhos",
+      "numeroProprietario": "1987",
+      "complementoProprietario": "Ap. 85",
+      "bairroProprietario": "Alto da Mooca",
+      "municipioProprietario": "São Paulo",
+      "cepProprietario": "09876765"
+    },
+    {
+      "id": 3,
+      "dataInclusaoProprietarios": "2018-09-01T07:59:45",
+      "nomeProprietario": "Nicolas Humberto da Silva Pitoresco",
+      "municipioVeiculo": "Minas Gerais",
+      "descricaoTransacao": "Transferência de propriedade dentro do mesmo município.",
+      "rgProprietario": "5566677778",
+      "tipoDocumentoCpfCnpj": "CPF",
+      "documentoCpfCnpj": "00000000191",
+      "logradouroProprietario": "Rua dos Trilhos",
+      "numeroProprietario": "1987",
+      "complementoProprietario": "Ap. 85",
+      "bairroProprietario": "Alto da Mooca",
+      "municipioProprietario": "São Paulo",
+      "cepProprietario": "09876765"
+    }
+  ],
+  "locais-veiculos": [
+    {
+      "id": 1,
+      "nomeLeitor": "Avenida Paulista, 1098, Jardim Paulista, São Paulo/SP",
+      "dataHoraEvento": "2018-09-01T21:59:45"
+    },
+    {
+      "id": 2,
+      "nomeLeitor": "Avenida Paulista, 1098, Jardim Paulista, São Paulo/SP",
+      "dataHoraEvento": "2018-09-01T21:59:45"
+    },
+    {
+      "id": 2,
+      "nomeLeitor": "Avenida Paulista, 1098, Jardim Paulista, São Paulo/SP",
+      "dataHoraEvento": "2018-09-01T21:59:45"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Raphael Freitas de Jesus",
+      "nomeMae": "Isabelle da Cunha Silva",
+      "nomePai": "Nicolas Gimenez Freitas",
+      "tipo_pessoa": "Vítima",
+      "situacao": "Criminal",
+      "rg": "3434343434343",
+      "rgDc": "9",
+      "rgs": [
+        "11111111-9",
+        "22222222-9"
+      ],
+      "cpf": "00000000191",
+      "cpfs": [
+        "11111111222",
+        "22222222333"
+      ],
+      "foto": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/users/face11.jpg",
+      "dataNascimento": "2000-09-01T21:59:45",
+      "origens": "Civil",
+      "cnh": {
+        "numero": "1234567890",
+        "categoria": "A",
+        "dataValidade": "2018-09-01T21:59:45",
+        "endereco": {
+          "logradouro": "Rua dos Trilhos",
+          "numero": "1987",
+          "complemento": "Ap. 85",
+          "bairro": "Alto da Mooca",
+          "municipio": "São Paulo",
+          "cep": "09876765"
+        }
+      },
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "nome": "Nicolas Gimenez Freitas",
+      "nomeMae": "Elizabeth Gimenez Freitas",
+      "nomePai": "Raphael Freitas de Jesus",
+      "tipo_pessoa": "Indiciado",
+      "situacao": "Criminal",
+      "rg": "123456789",
+      "rgDc": "9",
+      "rgs": [
+        "11111111-9",
+        "22222222-9"
+      ],
+      "cpf": "00000000000191",
+      "cpfs": [
+        "11111111222",
+        "22222222333"
+      ],
+      "foto": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/users/face11.jpg",
+      "dataNascimento": "2002-09-01T21:59:45",
+      "origens": "Criminal",
+      "confidencial": false
+    },
+    {
+      "id": 3,
+      "nome": "Isabelle Gimenez Freitas",
+      "nomeMae": "Elizabeth Gimenez Freitas",
+      "nomePai": "Raphael Freitas de Jesus",
+      "tipo_pessoa": "Vítima",
+      "situacao": "Criminal",
+      "rg": "987654321",
+      "rgDc": "5",
+      "rgs": [
+        "33333333-9",
+        "44444444-9"
+      ],
+      "cpf": "00000000000191",
+      "cpfs": [
+        "11111111222",
+        "22222222333"
+      ],
+      "foto": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/users/face11.jpg",
+      "dataNascimento": "2002-09-01T21:59:45",
+      "origens": "Criminal",
+      "confidencial": false
+    }
+  ],
+  "naturezas-ocorrencias": [
+    {
+      "id": 1,
+      "legislacao": "Criminal - Código Penal Brasileiro",
+      "artigo": "Art. 157",
+      "rubrica": "Roubo (Art. 157)"
+    },
+    {
+      "id": 2,
+      "legislacao": "Criminal - Código Penal Brasileiro",
+      "artigo": "Art. 171",
+      "rubrica": "Estelionato (Art. 171)"
+    },
+    {
+      "id": 3,
+      "legislacao": "Criminal - Código Penal Brasileiro",
+      "artigo": "Art. 198",
+      "rubrica": "Sei lá (Art. 198)"
+    }
+  ],
+  "autos-reconhecimentos": [
+    {
+      "id": 1,
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "idDelegacia": 1,
+      "nomeDelegacia": "Delegacia 1",
+      "rg": "111111111",
+      "cpf": "00000000191",
+      "nome": "Reconhecedor(a) 1",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão(ã) 1",
+      "rubricas": "Rubrica 1, Rubrica 2",
+      "reconhecidos": [
+        {
+          "id": "Reconhecido(a) 1",
+          "rg": "1111111111"
+        },
+        {
+          "id": "Reconhecido(a) 2",
+          "rg": "2222222222"
+        }
+      ],
+      "dataIdentificacao": "2018-09-01T21:59:45"
+    },
+    {
+      "id": 2,
+      "numeroBO": 2000,
+      "anoBO": 2018,
+      "idDelegacia": 2,
+      "nomeDelegacia": "Delegacia 2",
+      "rg": "2222222222",
+      "cpf": "00000000191",
+      "nome": "Reconhecedor(a) 2",
+      "nomeMae": "Mãe do reconhecedor(a) 2",
+      "nomePai": "Pai do reconhecedor(a) 2",
+      "dataNascimento": "1983-06-23T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 2",
+      "nomeEscrivao": "Escrivão(ã) 2",
+      "rubricas": "Rubrica 3, Rubrica 4",
+      "reconhecidos": [
+        {
+          "id": "Reconhecido(a) 3",
+          "rg": "3333333333"
+        },
+        {
+          "id": "Reconhecido(a) 4",
+          "rg": "4444444444"
+        }
+      ],
+      "dataIdentificacao": "2018-11-17T21:59:45"
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 5, Natureza 3, Natureza 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": false,
+          "ocorrencia": {}
+        },
+        {
+          "id": "2",
+          "tipo": "Indiciado",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": true,
+          "fotos": [
+            {
+              "id": "3",
+              "origem": "Detecta",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "4",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "3",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "5",
+              "origem": "IMAB RG",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "6",
+              "origem": "Detecta",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "4",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "7",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "5",
+          "tipo": "Suspeito",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "8",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "9",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "6",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "10",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 5, Natureza 3, Natureza 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": false,
+          "ocorrencia": {}
+        },
+        {
+          "id": "2",
+          "tipo": "Indiciado",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": true,
+          "fotos": [
+            {
+              "id": "3",
+              "origem": "Detecta",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "4",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "3",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "5",
+              "origem": "IMAB RG",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "6",
+              "origem": "Detecta",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "4",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "7",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "5",
+          "tipo": "Suspeito",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "8",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "9",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "6",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "10",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 5, Natureza 3, Natureza 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": false,
+          "ocorrencia": {}
+        },
+        {
+          "id": "2",
+          "tipo": "Indiciado",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": true,
+          "fotos": [
+            {
+              "id": "3",
+              "origem": "Detecta",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "4",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "3",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "5",
+              "origem": "IMAB RG",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "6",
+              "origem": "Detecta",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "4",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "7",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "5",
+          "tipo": "Suspeito",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "8",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "9",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": null,
+              "error": {}
+            }
+          ],
+          "ocorrencia": {}
+        },
+        {
+          "id": "6",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": false,
+          "fotos": [
+            {
+              "id": "10",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "ocorrencia": {}
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "rubricas": "Rubrica 2, Rubrica 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 1, Natureza 3, Natureza 5.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": ".",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 8
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 5, Natureza 2.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 5, Natureza 3, Natureza 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "rubricas": "Rubrica 2, Rubrica 1.",
+      "reconhecidos": [
+        {
+          "id": "1",
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {}
+        }
+      ],
+      "id": 11
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "rubricas": ".",
+      "reconhecidos": [
+        {
+          "id": 1,
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": 41444555666,
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {
+            "id": 1
+          }
+        }
+      ],
+      "id": 12
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 1, Natureza 3, Natureza 5.",
+      "reconhecidos": [
+        {
+          "id": 1,
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": 41444555666,
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {
+            "id": 1
+          }
+        },
+        {
+          "id": "3",
+          "tipo": "Autor",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": "41444555666",
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "reconhecido": true,
+          "fotos": [
+            {
+              "id": "5",
+              "origem": "IMAB RG",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "6",
+              "origem": "Detecta",
+              "selecionada": false,
+              "base64": null,
+              "error": "Timeout de conexão!"
+            }
+          ],
+          "ocorrencia": {
+            "id": 1
+          }
+        }
+      ],
+      "id": 13
+    },
+    {
+      "nome": "Reconhecedor(a) 1",
+      "cpf": "00000000191",
+      "rg": "111111111",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima",
+      "nomeDelegado": "Delegado 1",
+      "nomeEscrivao": "Escrivão 1",
+      "numeroBO": 1000,
+      "anoBO": 2018,
+      "nomeDelegacia": "Delegacia 1",
+      "rubricas": "Natureza 1, Natureza 2.",
+      "reconhecidos": [
+        {
+          "id": 1,
+          "tipo": "Vítima",
+          "nome": "Raphael Freitas de Jesus",
+          "rg": 41444555666,
+          "cpf": "31765445678",
+          "situacao": "Procurado",
+          "fotos": [
+            {
+              "id": "1",
+              "origem": "IMAB",
+              "selecionada": true,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            },
+            {
+              "id": "2",
+              "origem": "IMAB",
+              "selecionada": false,
+              "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+            }
+          ],
+          "reconhecido": true,
+          "ocorrencia": {
+            "id": 1
+          }
+        }
+      ],
+      "id": 14
+    }
+  ],
+  "enderecos": [
+    {
+      "id": 1,
+      "nome": "João da Cunha Lopes Melo",
+      "rg": "5566677778",
+      "cpf": "00000000191",
+      "logradouro": "Rua dos Trilhos",
+      "numero": "1987",
+      "complemento": "Ap. 85",
+      "bairro": "Alto da Mooca",
+      "municipio": "São Paulo",
+      "cep": "09876765",
+      "confidencial": false,
+      "origem": "Civil",
+      "dataCadastro": "2018-09-01T21:59:45"
+    },
+    {
+      "id": 2,
+      "nome": "Elizabeth Gimenez da Cunha Souza",
+      "rg": "5566677778",
+      "cpf": "00000000000191",
+      "logradouro": "Rua dos Trilhos",
+      "numero": "1987",
+      "complemento": "Ap. 85",
+      "bairro": "Alto da Mooca",
+      "municipio": "São Paulo",
+      "cep": "09876765",
+      "confidencial": false,
+      "origem": "Receita Federal",
+      "dataCadastro": "2018-09-01T21:59:45"
+    },
+    {
+      "id": 3,
+      "nome": "********",
+      "rg": "********",
+      "cpf": "********",
+      "logradouro": "********",
+      "numero": "********",
+      "complemento": "********",
+      "bairro": "********",
+      "municipio": "********",
+      "cep": "********",
+      "confidencial": true,
+      "origem": "********",
+      "dataCadastro": "********"
+    }
+  ],
+  "inqueritos": [
+    {
+      "id": 1,
+      "numero": 10599,
+      "ano": 2018,
+      "delegacia": "Delegacia da Vila Ema",
+      "vitima": "Raphael Freitas de Jesus",
+      "dataFato": "2018-09-30T21:59:45",
+      "dataInstauracao": "2018-09-30T21:59:45",
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "numero": "********",
+      "ano": "********",
+      "delegacia": "********",
+      "vitima": "********",
+      "dataFato": "********",
+      "dataInstauracao": "********",
+      "confidencial": true
+    }
+  ],
+  "processos": [
+    {
+      "id": 1,
+      "numero": 12345,
+      "ano": 2017,
+      "autoridadeJudiciaria": "Autoridade Judiciária Criminal",
+      "tipo": "Tipo do processo",
+      "situacao": "Procurado",
+      "dataDecisao": "2018-09-30T21:59:45",
+      "numeroInquerito": 10599,
+      "anoInquerito": 2018,
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "numero": "********",
+      "ano": "********",
+      "autoridadeJudiciaria": "********",
+      "tipo": "********",
+      "situacao": "********",
+      "dataDecisao": "********",
+      "numeroInquerito": "********",
+      "anoInquerito": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "numero": 33333,
+      "ano": 2015,
+      "autoridadeJudiciaria": "Autoridade Judiciária Criminal",
+      "tipo": "Tipo do processo",
+      "situacao": "Procurado",
+      "dataDecisao": "2018-09-30T21:59:45",
+      "numeroInquerito": 30303,
+      "anoInquerito": 2015,
+      "confidencial": false
+    }
+  ],
+  "mandados": [
+    {
+      "id": 1,
+      "numeroProcesso": 12345,
+      "anoProcesso": 2017,
+      "autoridadeJudiciaria": "Autoridade Judiciária Criminal",
+      "classificacao": "Classificação A",
+      "situacao": "Procurado",
+      "dataExpedicao": "2018-09-30T21:59:45",
+      "incidenciaPenal": {
+        "artigo": "11111",
+        "paragrafo": "22222",
+        "inciso": "33333",
+        "legislacao": "44444"
+      },
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "numeroProcesso": "********",
+      "anoProcesso": "********",
+      "autoridadeJudiciaria": "********",
+      "classificacao": "********",
+      "situacao": "********",
+      "dataExpedicao": "********",
+      "incidenciaPenal": {
+        "artigo": "********",
+        "paragrafo": "********",
+        "inciso": "********",
+        "legislacao": "********"
+      },
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "numeroProcesso": 33333,
+      "anoProcesso": 2015,
+      "autoridadeJudiciaria": "Autoridade Judiciária Criminal",
+      "classificacao": "Classificação A",
+      "situacao": "Procurado",
+      "dataExpedicao": "2018-11-30T21:59:45",
+      "incidenciaPenal": {
+        "artigo": "11111",
+        "paragrafo": "22222",
+        "inciso": "33333",
+        "legislacao": "44444"
+      },
+      "confidencial": false
+    }
+  ],
+  "alcunhas": [
+    {
+      "id": 1,
+      "rg": 12345,
+      "descricao": "Alcunha da Cunha Alibaba A",
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "rg": "********",
+      "descricao": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "rg": 333333333,
+      "descricao": "Alcunha 3",
+      "confidencial": false
+    }
+  ],
+  "outros-nomes": [
+    {
+      "id": 1,
+      "tipo": "Criminal",
+      "nome": "Outro Nome XPTO A",
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "tipo": "********",
+      "nome": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "tipo": "Civil",
+      "nome": "Outro Nome Civil 3",
+      "confidencial": false
+    }
+  ],
+  "outros-rgs": [
+    {
+      "id": 1,
+      "numero": "1234567899",
+      "origem": "Cirminal",
+      "confidencial": false
+    },
+    {
+      "id": 2,
+      "numero": "********",
+      "origem": "********",
+      "confidencial": true
+    },
+    {
+      "id": 3,
+      "numero": "333333333",
+      "origem": "Civil",
+      "confidencial": false
+    }
+  ],
+  "partes-ocorrencias": [
+    {
+      "id": 1,
+      "rg": "111111111",
+      "cpf": "00000000191",
+      "nome": "Reconhecedor(a) 1",
+      "nomeMae": "Mãe do reconhecedor(a) 1",
+      "nomePai": "Pai do reconhecedor(a) 1",
+      "dataNascimento": "2000-12-26T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima"
+    },
+    {
+      "id": 2,
+      "rg": "2222222222",
+      "cpf": "00000000191",
+      "nome": "Reconhecedor(a) 2",
+      "nomeMae": "Mãe do reconhecedor(a) 2",
+      "nomePai": "Pai do reconhecedor(a) 2",
+      "dataNascimento": "1983-06-23T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima"
+    },
+    {
+      "id": 3,
+      "rg": "3333333333",
+      "cpf": "00000000191",
+      "nome": "Reconhecedor(a) 3",
+      "nomeMae": "Mãe do reconhecedor(a) 3",
+      "nomePai": "Pai do reconhecedor(a) 3",
+      "dataNascimento": "1981-09-25T21:59:45",
+      "codigoTipoPessoa": 1,
+      "tipoPessoa": "Vítima"
+    }
+  ],
+  "delegados": [
+    {
+      "id": 1,
+      "nome": "Delegado 1",
+      "rg": 1111111111
+    },
+    {
+      "id": 2,
+      "nome": "Delegado 2",
+      "rg": 2222222222
+    },
+    {
+      "id": 3,
+      "nome": "Delegado 3",
+      "rg": 3333333333
+    }
+  ],
+  "escrivaes": [
+    {
+      "id": 1,
+      "nome": "Escrivão 1",
+      "rg": 1111111111
+    },
+    {
+      "id": 2,
+      "nome": "Escrivão 2",
+      "rg": 2222222222
+    },
+    {
+      "id": 3,
+      "nome": "Escrivão 3",
+      "rg": 3333333333
+    }
+  ],
+  "suspeitos": [
+    {
+      "id": 1,
+      "nome": "Raphael Freitas de Jesus",
+      "rg": 41444555666,
+      "cpf": "31765445678",
+      "tipo": "Vítima",
+      "situacao": "Procurado",
+      "fotos": [
+      ],
+      "reconhecido": false,
+      "ocorrencia": {
+        "id": 1,
+        "numero": 1000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 1,
+          "nome": "Delegacia 1"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "nome": "Raphael Freitas de Jesus",
+      "rg": "44444444",
+      "cpf": "00000000191",
+      "tipo": "Indiciado",
+      "situacao": "Procurado",
+      "reconhecido": true,
+      "fotos": [
+      ],
+      "ocorrencia": {
+        "id": 2,
+        "numero": 2000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 2,
+          "nome": "Delegacia 2"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "nome": "Raphael Freitas de Jesus",
+      "rg": "3333",
+      "cpf": "333",
+      "tipo": "Autor",
+      "situacao": "Procurado",
+      "reconhecido": false,
+      "fotos": [
+        {
+          "id": "5",
+          "origem": "IMAB RG",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        },
+        {
+          "id": "6",
+          "origem": "Detecta",
+          "selecionada": false,
+          "base64": null,
+          "error": "Timeout de conexão!"
+        }
+      ],
+      "ocorrencia": {
+        "id": 3,
+        "numero": 3000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 3,
+          "nome": "Delegacia 3"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "nome": "Raphael Freitas de Jesus",
+      "rg": "4444",
+      "cpf": "4444",
+      "tipo": "Autor",
+      "situacao": "Procurado",
+      "reconhecido": false,
+      "fotos": [
+        {
+          "id": "7",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        }
+      ],
+      "ocorrencia": {
+        "id": 4,
+        "numero": 4000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 4,
+          "nome": "Delegacia 4"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "nome": "Raphael Freitas de Jesus",
+      "rg": "5555",
+      "cpf": "5555",
+      "tipo": "Suspeito",
+      "situacao": "Procurado",
+      "reconhecido": false,
+      "fotos": [
+        {
+          "id": "8",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        },
+        {
+          "id": "9",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": null,
+          "error": "Timeout de conexão!"
+        }
+      ],
+      "ocorrencia": {
+        "id": 5,
+        "numero": 5000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 5,
+          "nome": "Delegacia 5"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "nome": "Raphael Freitas de Jesus",
+      "rg": "6666",
+      "cpf": "6666",
+      "tipo": "Autor",
+      "situacao": "Procurado",
+      "reconhecido": false,
+      "fotos": [
+        {
+          "id": "10",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        }
+      ],
+      "ocorrencia": {
+        "id": 6,
+        "numero": 6000,
+        "ano": 2018,
+        "delegacia": {
+          "id": 6,
+          "nome": "Delegacia 6"
+        }
+      }
+    }
+  ],
+  "elasticsearch-indices": [
+    "Nome do Índice 1",
+    "Nome do Índice 2",
+    "Nome do Índice 3"
+  ],
+  "auditoria-elasticsearch": [
+    {
+      "id": 1,
+      "nomeIndice": "Nome do Índice 1",
+      "tipoDocumento": "Tipo do Documento A",
+      "quantidadeDocumentos": 1000,
+      "ultimaInclusao": "2018-11-25T21:59:45"
+    },
+    {
+      "id": 23,
+      "nomeIndice": "Nome do Índice 2",
+      "tipoDocumento": "Tipo do Documento B",
+      "quantidadeDocumentos": 2000,
+      "ultimaInclusao": "2018-11-19T21:59:45"
+    },
+    {
+      "id": 3,
+      "nomeIndice": "Nome do Índice 3",
+      "tipoDocumento": "Tipo do Documento C",
+      "quantidadeDocumentos": 3000,
+      "ultimaInclusao": "2018-11-10T21:59:45"
+    }
+  ],
+  "auditoria-servicos": [
+    {
+      "id": 1,
+      "tipoServico": "Tipo do Serviço 1",
+      "usuarioSolicitante": "Usuário Solicitante A",
+      "dataRequisicao": "2018-11-25T21:59:45",
+      "conteudoRequisicao": "{\"id\":1,\"name\":\"A green door\",\"price\":12.50,\"tags\":[\"home\",\"green\"]}",
+      "dataResposta": "2018-11-25T21:59:46",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "OK"
+    },
+    {
+      "id": 2,
+      "tipoServico": "Tipo do Serviço 2",
+      "usuarioSolicitante": "Usuário Solicitante B",
+      "dataRequisicao": "2018-11-25T21:59:45",
+      "conteudoRequisicao": "{ \"data\": \"Conteúdo\" }",
+      "dataResposta": "2018-11-25T21:59:47",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "Timeout"
+    },
+    {
+      "id": 3,
+      "tipoServico": "Tipo do Serviço 3",
+      "usuarioSolicitante": "Usuário Solicitante C",
+      "dataRequisicao": "2018-11-25T21:59:45",
+      "conteudoRequisicao": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Leanne Graham\",\r\n    \"username\": \"Bret\",\r\n    \"email\": \"Sincere@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Ervin Howell\",\r\n    \"username\": \"Antonette\",\r\n    \"email\": \"Shanna@melissa.tv\",\r\n    \"address\": {\r\n      \"street\": \"Victor Plains\",\r\n      \"suite\": \"Suite 879\",\r\n      \"city\": \"Wisokyburgh\",\r\n      \"zipcode\": \"90566-7771\",\r\n      \"geo\": {\r\n        \"lat\": \"-43.9509\",\r\n        \"lng\": \"-34.4618\"\r\n      }\r\n    },\r\n    \"phone\": \"010-692-6593 x09125\",\r\n    \"website\": \"anastasia.net\",\r\n    \"company\": {\r\n      \"name\": \"Deckow-Crist\",\r\n      \"catchPhrase\": \"Proactive didactic contingency\",\r\n      \"bs\": \"synergize scalable supply-chains\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"Clementine Bauch\",\r\n    \"username\": \"Samantha\",\r\n    \"email\": \"Nathan@yesenia.net\",\r\n    \"address\": {\r\n      \"street\": \"Douglas Extension\",\r\n      \"suite\": \"Suite 847\",\r\n      \"city\": \"McKenziehaven\",\r\n      \"zipcode\": \"59590-4157\",\r\n      \"geo\": {\r\n        \"lat\": \"-68.6102\",\r\n        \"lng\": \"-47.0653\"\r\n      }\r\n    },\r\n    \"phone\": \"1-463-123-4447\",\r\n    \"website\": \"ramiro.info\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Jacobson\",\r\n      \"catchPhrase\": \"Face to face bifurcated interface\",\r\n      \"bs\": \"e-enable strategic applications\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"Patricia Lebsack\",\r\n    \"username\": \"Karianne\",\r\n    \"email\": \"Julianne.OConner@kory.org\",\r\n    \"address\": {\r\n      \"street\": \"Hoeger Mall\",\r\n      \"suite\": \"Apt. 692\",\r\n      \"city\": \"South Elvis\",\r\n      \"zipcode\": \"53919-4257\",\r\n      \"geo\": {\r\n        \"lat\": \"29.4572\",\r\n        \"lng\": \"-164.2990\"\r\n      }\r\n    },\r\n    \"phone\": \"493-170-9623 x156\",\r\n    \"website\": \"kale.biz\",\r\n    \"company\": {\r\n      \"name\": \"Robel-Corkery\",\r\n      \"catchPhrase\": \"Multi-tiered zero tolerance productivity\",\r\n      \"bs\": \"transition cutting-edge web services\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"Chelsey Dietrich\",\r\n    \"username\": \"Kamren\",\r\n    \"email\": \"Lucio_Hettinger@annie.ca\",\r\n    \"address\": {\r\n      \"street\": \"Skiles Walks\",\r\n      \"suite\": \"Suite 351\",\r\n      \"city\": \"Roscoeview\",\r\n      \"zipcode\": \"33263\",\r\n      \"geo\": {\r\n        \"lat\": \"-31.8129\",\r\n        \"lng\": \"62.5342\"\r\n      }\r\n    },\r\n    \"phone\": \"(254)954-1289\",\r\n    \"website\": \"demarco.info\",\r\n    \"company\": {\r\n      \"name\": \"Keebler LLC\",\r\n      \"catchPhrase\": \"User-centric fault-tolerant solution\",\r\n      \"bs\": \"revolutionize end-to-end systems\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 6,\r\n    \"name\": \"Mrs. Dennis Schulist\",\r\n    \"username\": \"Leopoldo_Corkery\",\r\n    \"email\": \"Karley_Dach@jasper.info\",\r\n    \"address\": {\r\n      \"street\": \"Norberto Crossing\",\r\n      \"suite\": \"Apt. 950\",\r\n      \"city\": \"South Christy\",\r\n      \"zipcode\": \"23505-1337\",\r\n      \"geo\": {\r\n        \"lat\": \"-71.4197\",\r\n        \"lng\": \"71.7478\"\r\n      }\r\n    },\r\n    \"phone\": \"1-477-935-8478 x6430\",\r\n    \"website\": \"ola.org\",\r\n    \"company\": {\r\n      \"name\": \"Considine-Lockman\",\r\n      \"catchPhrase\": \"Synchronised bottom-line interface\",\r\n      \"bs\": \"e-enable innovative applications\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 7,\r\n    \"name\": \"Kurtis Weissnat\",\r\n    \"username\": \"Elwyn.Skiles\",\r\n    \"email\": \"Telly.Hoeger@billy.biz\",\r\n    \"address\": {\r\n      \"street\": \"Rex Trail\",\r\n      \"suite\": \"Suite 280\",\r\n      \"city\": \"Howemouth\",\r\n      \"zipcode\": \"58804-1099\",\r\n      \"geo\": {\r\n        \"lat\": \"24.8918\",\r\n        \"lng\": \"21.8984\"\r\n      }\r\n    },\r\n    \"phone\": \"210.067.6132\",\r\n    \"website\": \"elvis.io\",\r\n    \"company\": {\r\n      \"name\": \"Johns Group\",\r\n      \"catchPhrase\": \"Configurable multimedia task-force\",\r\n      \"bs\": \"generate enterprise e-tailers\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"name\": \"Nicholas Runolfsdottir V\",\r\n    \"username\": \"Maxime_Nienow\",\r\n    \"email\": \"Sherwood@rosamond.me\",\r\n    \"address\": {\r\n      \"street\": \"Ellsworth Summit\",\r\n      \"suite\": \"Suite 729\",\r\n      \"city\": \"Aliyaview\",\r\n      \"zipcode\": \"45169\",\r\n      \"geo\": {\r\n        \"lat\": \"-14.3990\",\r\n        \"lng\": \"-120.7677\"\r\n      }\r\n    },\r\n    \"phone\": \"586.493.6943 x140\",\r\n    \"website\": \"jacynthe.com\",\r\n    \"company\": {\r\n      \"name\": \"Abernathy Group\",\r\n      \"catchPhrase\": \"Implemented secondary concept\",\r\n      \"bs\": \"e-enable extensible e-tailers\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 9,\r\n    \"name\": \"Glenna Reichert\",\r\n    \"username\": \"Delphine\",\r\n    \"email\": \"Chaim_McDermott@dana.io\",\r\n    \"address\": {\r\n      \"street\": \"Dayna Park\",\r\n      \"suite\": \"Suite 449\",\r\n      \"city\": \"Bartholomebury\",\r\n      \"zipcode\": \"76495-3109\",\r\n      \"geo\": {\r\n        \"lat\": \"24.6463\",\r\n        \"lng\": \"-168.8889\"\r\n      }\r\n    },\r\n    \"phone\": \"(775)976-6794 x41206\",\r\n    \"website\": \"conrad.com\",\r\n    \"company\": {\r\n      \"name\": \"Yost and Sons\",\r\n      \"catchPhrase\": \"Switchable contextually-based project\",\r\n      \"bs\": \"aggregate real-time technologies\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 10,\r\n    \"name\": \"Clementina DuBuque\",\r\n    \"username\": \"Moriah.Stanton\",\r\n    \"email\": \"Rey.Padberg@karina.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kattie Turnpike\",\r\n      \"suite\": \"Suite 198\",\r\n      \"city\": \"Lebsackbury\",\r\n      \"zipcode\": \"31428-2261\",\r\n      \"geo\": {\r\n        \"lat\": \"-38.2386\",\r\n        \"lng\": \"57.2232\"\r\n      }\r\n    },\r\n    \"phone\": \"024-648-3804\",\r\n    \"website\": \"ambrose.net\",\r\n    \"company\": {\r\n      \"name\": \"Hoeger LLC\",\r\n      \"catchPhrase\": \"Centralized empowering task-force\",\r\n      \"bs\": \"target end-to-end models\"\r\n    }\r\n  }\r\n]",
+      "dataResposta": "2018-11-25T21:59:59",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "Serviço indisponível"
+    }
+  ],
+  "auditoria-acessos": [
+    {
+      "id": 1,
+      "tipoServico": "Tipo do Serviço 1",
+      "funcionalidade": "Consulta",
+      "rgUsuario": "RG Usuário 1",
+      "nomeUsuario": "Nome Usuário 1",
+      "totalAcessos": 1000,
+      "dataRequisicao": "2018-11-25T21:59:45",
+      "conteudoRequisicao": "{\"id\":1,\"name\":\"A green door\",\"price\":12.50,\"tags\":[\"home\",\"green\"]}",
+      "dataResposta": "2018-11-25T21:59:46",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "OK"
+    },
+    {
+      "id": 2,
+      "tipoServico": "Tipo do Serviço 2",
+      "funcionalidade": "Detalhe",
+      "rgUsuario": "RG Usuário 2",
+      "nomeUsuario": "Nome Usuário 2",
+      "totalAcessos": 2000,
+      "dataRequisicao": "2018-11-10T21:59:45",
+      "conteudoRequisicao": "{\"id\":1,\"name\":\"A green door\",\"price\":12.50,\"tags\":[\"home\",\"green\"]}",
+      "dataResposta": "2018-11-11T21:59:46",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "Timeout"
+    },
+    {
+      "id": 3,
+      "tipoServico": "Tipo do Serviço 3",
+      "funcionalidade": "Detalhe",
+      "rgUsuario": "RG Usuário 3",
+      "nomeUsuario": "Nome Usuário 3",
+      "totalAcessos": 3000,
+      "dataRequisicao": "2018-09-10T21:59:45",
+      "conteudoRequisicao": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Leanne Graham\",\r\n    \"username\": \"Bret\",\r\n    \"email\": \"Sincere@april.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kulas Light\",\r\n      \"suite\": \"Apt. 556\",\r\n      \"city\": \"Gwenborough\",\r\n      \"zipcode\": \"92998-3874\",\r\n      \"geo\": {\r\n        \"lat\": \"-37.3159\",\r\n        \"lng\": \"81.1496\"\r\n      }\r\n    },\r\n    \"phone\": \"1-770-736-8031 x56442\",\r\n    \"website\": \"hildegard.org\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Crona\",\r\n      \"catchPhrase\": \"Multi-layered client-server neural-net\",\r\n      \"bs\": \"harness real-time e-markets\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Ervin Howell\",\r\n    \"username\": \"Antonette\",\r\n    \"email\": \"Shanna@melissa.tv\",\r\n    \"address\": {\r\n      \"street\": \"Victor Plains\",\r\n      \"suite\": \"Suite 879\",\r\n      \"city\": \"Wisokyburgh\",\r\n      \"zipcode\": \"90566-7771\",\r\n      \"geo\": {\r\n        \"lat\": \"-43.9509\",\r\n        \"lng\": \"-34.4618\"\r\n      }\r\n    },\r\n    \"phone\": \"010-692-6593 x09125\",\r\n    \"website\": \"anastasia.net\",\r\n    \"company\": {\r\n      \"name\": \"Deckow-Crist\",\r\n      \"catchPhrase\": \"Proactive didactic contingency\",\r\n      \"bs\": \"synergize scalable supply-chains\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"Clementine Bauch\",\r\n    \"username\": \"Samantha\",\r\n    \"email\": \"Nathan@yesenia.net\",\r\n    \"address\": {\r\n      \"street\": \"Douglas Extension\",\r\n      \"suite\": \"Suite 847\",\r\n      \"city\": \"McKenziehaven\",\r\n      \"zipcode\": \"59590-4157\",\r\n      \"geo\": {\r\n        \"lat\": \"-68.6102\",\r\n        \"lng\": \"-47.0653\"\r\n      }\r\n    },\r\n    \"phone\": \"1-463-123-4447\",\r\n    \"website\": \"ramiro.info\",\r\n    \"company\": {\r\n      \"name\": \"Romaguera-Jacobson\",\r\n      \"catchPhrase\": \"Face to face bifurcated interface\",\r\n      \"bs\": \"e-enable strategic applications\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"Patricia Lebsack\",\r\n    \"username\": \"Karianne\",\r\n    \"email\": \"Julianne.OConner@kory.org\",\r\n    \"address\": {\r\n      \"street\": \"Hoeger Mall\",\r\n      \"suite\": \"Apt. 692\",\r\n      \"city\": \"South Elvis\",\r\n      \"zipcode\": \"53919-4257\",\r\n      \"geo\": {\r\n        \"lat\": \"29.4572\",\r\n        \"lng\": \"-164.2990\"\r\n      }\r\n    },\r\n    \"phone\": \"493-170-9623 x156\",\r\n    \"website\": \"kale.biz\",\r\n    \"company\": {\r\n      \"name\": \"Robel-Corkery\",\r\n      \"catchPhrase\": \"Multi-tiered zero tolerance productivity\",\r\n      \"bs\": \"transition cutting-edge web services\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"Chelsey Dietrich\",\r\n    \"username\": \"Kamren\",\r\n    \"email\": \"Lucio_Hettinger@annie.ca\",\r\n    \"address\": {\r\n      \"street\": \"Skiles Walks\",\r\n      \"suite\": \"Suite 351\",\r\n      \"city\": \"Roscoeview\",\r\n      \"zipcode\": \"33263\",\r\n      \"geo\": {\r\n        \"lat\": \"-31.8129\",\r\n        \"lng\": \"62.5342\"\r\n      }\r\n    },\r\n    \"phone\": \"(254)954-1289\",\r\n    \"website\": \"demarco.info\",\r\n    \"company\": {\r\n      \"name\": \"Keebler LLC\",\r\n      \"catchPhrase\": \"User-centric fault-tolerant solution\",\r\n      \"bs\": \"revolutionize end-to-end systems\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 6,\r\n    \"name\": \"Mrs. Dennis Schulist\",\r\n    \"username\": \"Leopoldo_Corkery\",\r\n    \"email\": \"Karley_Dach@jasper.info\",\r\n    \"address\": {\r\n      \"street\": \"Norberto Crossing\",\r\n      \"suite\": \"Apt. 950\",\r\n      \"city\": \"South Christy\",\r\n      \"zipcode\": \"23505-1337\",\r\n      \"geo\": {\r\n        \"lat\": \"-71.4197\",\r\n        \"lng\": \"71.7478\"\r\n      }\r\n    },\r\n    \"phone\": \"1-477-935-8478 x6430\",\r\n    \"website\": \"ola.org\",\r\n    \"company\": {\r\n      \"name\": \"Considine-Lockman\",\r\n      \"catchPhrase\": \"Synchronised bottom-line interface\",\r\n      \"bs\": \"e-enable innovative applications\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 7,\r\n    \"name\": \"Kurtis Weissnat\",\r\n    \"username\": \"Elwyn.Skiles\",\r\n    \"email\": \"Telly.Hoeger@billy.biz\",\r\n    \"address\": {\r\n      \"street\": \"Rex Trail\",\r\n      \"suite\": \"Suite 280\",\r\n      \"city\": \"Howemouth\",\r\n      \"zipcode\": \"58804-1099\",\r\n      \"geo\": {\r\n        \"lat\": \"24.8918\",\r\n        \"lng\": \"21.8984\"\r\n      }\r\n    },\r\n    \"phone\": \"210.067.6132\",\r\n    \"website\": \"elvis.io\",\r\n    \"company\": {\r\n      \"name\": \"Johns Group\",\r\n      \"catchPhrase\": \"Configurable multimedia task-force\",\r\n      \"bs\": \"generate enterprise e-tailers\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"name\": \"Nicholas Runolfsdottir V\",\r\n    \"username\": \"Maxime_Nienow\",\r\n    \"email\": \"Sherwood@rosamond.me\",\r\n    \"address\": {\r\n      \"street\": \"Ellsworth Summit\",\r\n      \"suite\": \"Suite 729\",\r\n      \"city\": \"Aliyaview\",\r\n      \"zipcode\": \"45169\",\r\n      \"geo\": {\r\n        \"lat\": \"-14.3990\",\r\n        \"lng\": \"-120.7677\"\r\n      }\r\n    },\r\n    \"phone\": \"586.493.6943 x140\",\r\n    \"website\": \"jacynthe.com\",\r\n    \"company\": {\r\n      \"name\": \"Abernathy Group\",\r\n      \"catchPhrase\": \"Implemented secondary concept\",\r\n      \"bs\": \"e-enable extensible e-tailers\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 9,\r\n    \"name\": \"Glenna Reichert\",\r\n    \"username\": \"Delphine\",\r\n    \"email\": \"Chaim_McDermott@dana.io\",\r\n    \"address\": {\r\n      \"street\": \"Dayna Park\",\r\n      \"suite\": \"Suite 449\",\r\n      \"city\": \"Bartholomebury\",\r\n      \"zipcode\": \"76495-3109\",\r\n      \"geo\": {\r\n        \"lat\": \"24.6463\",\r\n        \"lng\": \"-168.8889\"\r\n      }\r\n    },\r\n    \"phone\": \"(775)976-6794 x41206\",\r\n    \"website\": \"conrad.com\",\r\n    \"company\": {\r\n      \"name\": \"Yost and Sons\",\r\n      \"catchPhrase\": \"Switchable contextually-based project\",\r\n      \"bs\": \"aggregate real-time technologies\"\r\n    }\r\n  },\r\n  {\r\n    \"id\": 10,\r\n    \"name\": \"Clementina DuBuque\",\r\n    \"username\": \"Moriah.Stanton\",\r\n    \"email\": \"Rey.Padberg@karina.biz\",\r\n    \"address\": {\r\n      \"street\": \"Kattie Turnpike\",\r\n      \"suite\": \"Suite 198\",\r\n      \"city\": \"Lebsackbury\",\r\n      \"zipcode\": \"31428-2261\",\r\n      \"geo\": {\r\n        \"lat\": \"-38.2386\",\r\n        \"lng\": \"57.2232\"\r\n      }\r\n    },\r\n    \"phone\": \"024-648-3804\",\r\n    \"website\": \"ambrose.net\",\r\n    \"company\": {\r\n      \"name\": \"Hoeger LLC\",\r\n      \"catchPhrase\": \"Centralized empowering task-force\",\r\n      \"bs\": \"target end-to-end models\"\r\n    }\r\n  }\r\n]",
+      "dataResposta": "2018-08-11T21:59:46",
+      "conteudoResposta": "{ \"data\": \"Conteúdo\" }",
+      "resultado": "Serviço indisponível"
+    }
+  ],
+  "caches": [
+    {
+      "id": 1,
+      "tipoServico": "IMAB RG",
+      "tempoExpiracao": "Tempo de Expiração A",
+      "conteudo": [
+        {
+          "id": "1",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        },
+        {
+          "id": "2",
+          "origem": "IMAB",
+          "selecionada": false,
+          "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+        }
+      ],
+      "rg": 1111111111,
+      "cpf": "00000000191"
+    },
+    {
+      "id": 2,
+      "tipoServico": "IMAB CPF",
+      "tempoExpiracao": "Tempo de Expiração B",
+      "rg": 2222222222,
+      "cpf": "00000000191"
+    },
+    {
+      "id": 3,
+      "tipoServico": "DETECTA FotoCrim",
+      "tempoExpiracao": "Tempo de Expiração C",
+      "rg": null,
+      "cpf": "00000000191"
+    },
+    {
+      "id": 4,
+      "tipoServico": "PHONEIX",
+      "tempoExpiracao": "Tempo de Expiração D",
+      "rg": 44444444,
+      "cpf": null
+    }
+  ],
+  "auditoria-cargas": [
+    {
+      "id": 1,
+      "origem": {
+        "nome": "CIVIL DADOS",
+        "totalConfidencial": 590,
+        "total": 22000,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais OK"
+      },
+      "destino": {
+        "nome": "PESSOA CIVIL",
+        "totalConfidencial": 594,
+        "total": 22045,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais Dirvegentes"
+      }
+    },
+    {
+      "id": 2,
+      "origem": {
+        "nome": "CNH DADOS",
+        "totalConfidencial": 11,
+        "total": 263618,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais OK"
+      },
+      "destino": {
+        "nome": "PESSOA CNH",
+        "totalConfidencial": 11,
+        "total": 263627,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais Dirvegentes"
+      }
+    },
+    {
+      "id": 3,
+      "origem": {
+        "nome": "CRIM MANDADO PRISÃO",
+        "totalConfidencial": 0,
+        "total": 466,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais OK"
+      },
+      "destino": {
+        "nome": "PESSOA CRIMINAL (MANDADO PRISÃO)",
+        "totalConfidencial": 0,
+        "total": 466,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais OK"
+      }
+    },
+    {
+      "id": 4,
+      "origem": {
+        "nome": "CRIM DADOS",
+        "totalConfidencial": 231,
+        "total": 7244,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais OK"
+      },
+      "destino": {
+        "nome": "PESSOA CRIMINAL",
+        "totalConfidencial": 231,
+        "total": 7242,
+        "dataUltimaInclusao": "2018-10-19T02:59:46",
+        "dataConsolidacao": "2018-10-19T03:00:00",
+        "situacaoConsolidacao": "Totais Divergentes"
+      }
+    }
+  ],
+  "watson": [
+    {
+      "id": 1,
+      "ano": 2018,
+      "numero": 1000,
+      "idDelegacia": 1,
+      "nomeDelegacia": "Delegacia 1",
+      "dataElaboracao": "2018-03-17T23:28:56.782Z",
+      "latitude": -24.0227050199999,
+      "longitude": -46.483941417,
+      "distancia": 1002,
+      "similaridade": 41.3640,
+      "tipoSimilaridade": "MOA",
+      "historico": "Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. Comparece neste plantão policial as vítimas supramencionadas noticiando que se encontravam no porto de ônibus. "
+    }
+  ],
+  "watson-similar-mo": {  
+    "code":0,
+    "status":"SUCESSO",
+    "numBo":5759,
+    "anoBo":2018,
+    "idDelegacia":40209,
+    "idNatureza":null,
+    "latitude":24.025711115,
+    "longitude":46.4932455919999,
+    "qtdeBoNatureza":100,
+    "raioKm":1500.0,
+    "qtdeBoRaioKm":null,
+    "similaridadeAceitavel":10.0,
+    "qtdeBoSimilaridade":42,
+    "moAutor":"( (LATITUDE: > 24.01222129091122 AND LATITUDE: < 24.03920093908878 AND LONGITUDE: > 46.47847618889775 AND LONGITUDE: < 46.508014995102045) AND (AUTORIA_BO:S) AND (um individuo) AND (bicicleta) AND (subtraindo OR subtrair) )",
+    "moVitima":null,
+    "bos":[  
+      {  
+         "anoBo":2018,
+         "numBo":3641,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0227050199999,
+         "longitude":46.483941417,
+         "percSimilaridade":41.364,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2018,
+         "numBo":6258,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.029721792,
+         "longitude":46.502398876,
+         "percSimilaridade":32.598,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":6737,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.027065325,
+         "longitude":46.4959693179999,
+         "percSimilaridade":29.471,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":11991,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0165561560909,
+         "longitude":46.4968987916363,
+         "percSimilaridade":27.407,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":9355,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0290747015349,
+         "longitude":46.4844496374496,
+         "percSimilaridade":26.889,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":7699,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0330063340545,
+         "longitude":46.4833415322728,
+         "percSimilaridade":25.27,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":8019,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0261325207957,
+         "longitude":46.4800416443775,
+         "percSimilaridade":21.092,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":3899,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.026519422,
+         "longitude":46.481061425,
+         "percSimilaridade":20.977,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2018,
+         "numBo":7719,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.027065325,
+         "longitude":46.4959693179999,
+         "percSimilaridade":19.831,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":8714,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0261325207957,
+         "longitude":46.4800416443775,
+         "percSimilaridade":19.604,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":665,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0261325207957,
+         "longitude":46.4800416443775,
+         "percSimilaridade":18.129,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":10277,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0373267809037,
+         "longitude":46.4939226976621,
+         "percSimilaridade":17.495,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":7424,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.024206464,
+         "longitude":46.488600166,
+         "percSimilaridade":17.48,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":9579,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0300745073871,
+         "longitude":46.5030464585161,
+         "percSimilaridade":17.174,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":3908,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0302601470645,
+         "longitude":46.5033872914193,
+         "percSimilaridade":17.126,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":2477,
+         "idDelegacia":40412,
+         "idNatureza":157,
+         "latitude":24.0346147476315,
+         "longitude":46.5074101959473,
+         "percSimilaridade":16.925,
+         "typeScore":"MOA",
+         "nomeDelegacia":"02º D.P. PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":5646,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0334099601363,
+         "longitude":46.4994880411363,
+         "percSimilaridade":16.778,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2016,
+         "numBo":1670,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0234051959999,
+         "longitude":46.486128322,
+         "percSimilaridade":16.767,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":9111,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0262241863209,
+         "longitude":46.4948248952051,
+         "percSimilaridade":16.468,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":5588,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0257905177777,
+         "longitude":46.4849719401111,
+         "percSimilaridade":14.437,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2016,
+         "numBo":8476,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.027065325,
+         "longitude":46.4959693179999,
+         "percSimilaridade":14.306,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2016,
+         "numBo":9929,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0323305633043,
+         "longitude":46.4815488925217,
+         "percSimilaridade":14.194,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2018,
+         "numBo":3870,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0265879607959,
+         "longitude":46.4973250641428,
+         "percSimilaridade":13.822,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2015,
+         "numBo":260,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0261325207957,
+         "longitude":46.4800416443775,
+         "percSimilaridade":13.407,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2017,
+         "numBo":3039,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.02267347,
+         "longitude":46.481235462,
+         "percSimilaridade":13.229,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2018,
+         "numBo":8996,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0232820069999,
+         "longitude":46.4873803741999,
+         "percSimilaridade":13.123,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2016,
+         "numBo":3033,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0261135133928,
+         "longitude":46.4944832460714,
+         "percSimilaridade":12.864,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2018,
+         "numBo":5682,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.025711115,
+         "longitude":46.4932455919999,
+         "percSimilaridade":12.856,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2014,
+         "numBo":5010,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0297217919271,
+         "longitude":46.5023988758094,
+         "percSimilaridade":11.957,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      },
+      {  
+         "anoBo":2016,
+         "numBo":8034,
+         "idDelegacia":40209,
+         "idNatureza":157,
+         "latitude":24.0361941209999,
+         "longitude":46.49141085,
+         "percSimilaridade":11.818,
+         "typeScore":"MOA",
+         "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+         "autoriaOcorrencia":"S"
+      }
+   ],
+   "error":null,
+   "autoriaOcorrencia":"N",
+   "nomeDelegacia":"DEL.POL.PRAIA GRANDE",
+   "coordenadas":[  
+      {  
+         "latitude":-24.01222129091122,
+         "longitude":-46.4932455919999,
+         "absLat":24.01222129091122,
+         "absLng":46.4932455919999
+      },
+      {  
+         "latitude":-24.025710407107418,
+         "longitude":-46.508014995102045,
+         "absLat":24.025710407107418,
+         "absLng":46.508014995102045
+      },
+      {  
+         "latitude":-24.025710407107418,
+         "longitude":-46.47847618889775,
+         "absLat":24.025710407107418,
+         "absLng":46.47847618889775
+      },
+      {  
+         "latitude":-24.03920093908878,
+         "longitude":-46.4932455919999,
+         "absLat":24.03920093908878,
+         "absLng":46.4932455919999
+      }
+   ],
+   "similarMoV":true,
+   "similarMoA":true
+  },
+  "fotos": [
+    {
+      "id": "1",
+      "rg": "41444555666",
+      "cpf": "31765445678",
+      "origem": "IMAB",
+      "selecionada": false,
+      "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+    },
+    {
+      "id": "2",
+      "rg": "41444555666",
+      "cpf": "31765445678",
+      "origem": "IMAB",
+      "selecionada": false,
+      "base64": "http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/flat/4.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+#language: pt
+
+Funcionalidade: Esqueceu sua senha Botão Voltar.
+
+Cenário: Esqueceu sua senha Botão Voltar.
+
+Dado que eu queira logar na aplicação e não lembro a senha correta.
+
+Quando clico no link Esqueceu sua senha?.
+
+Então o sistema exibe a tela Esqueceu sua senha? para prenchimento
+
+Quando eu informo o RG e clico em Voltar
+
+Então o sistema o sistema retorna para a tela de login.

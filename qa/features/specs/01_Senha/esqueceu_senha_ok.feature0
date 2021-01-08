@@ -1,0 +1,15 @@
+#language: pt
+
+Funcionalidade: Esqueceu sua senha Botão OK.
+
+Cenário: Esqueceu sua senha Botão OK.
+
+Dado que eu queira logar na aplicação e não lembro a senha.
+
+Quando clico em Esqueceu sua senha?.
+
+Então o sistema exibe a tela Esqueceu sua senha?
+
+Quando eu informo o RG e clico em OK
+
+Então o sistema envia um e-mail para o usuário alterar a senha.
