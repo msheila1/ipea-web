@@ -1,4 +1,4 @@
-# analitico
+# Sistema Analitico
 
 ## Project setup
 ```
