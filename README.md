@@ -1,4 +1,4 @@
-# dipol-analitico
+# analitico
 
 ## Project setup
 ```
